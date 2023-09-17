@@ -1,0 +1,13 @@
+COMANDO PARA PUSHEAR
+    git add <archivo o carpeta> 
+    git commit -m "<mensaje>"
+    git push origin <rama personal>
+
+CREAR RAMA
+    git branch <nombre de la rama>
+
+MOVERSE DE RAMA 
+    git checkout <nombre de la rama>
+
+BORRAR DEL STORAGE (git add <archivo o carpeta>)
+    git reset <archivo o carpeta>
