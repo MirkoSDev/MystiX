@@ -1,5 +1,5 @@
 const Shop = () => {
-  return <h1>Acá están las tarjetas</h1>;
+  return <></>;
 };
 
 export default Shop;
