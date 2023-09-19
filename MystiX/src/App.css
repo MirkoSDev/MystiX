@@ -1,2 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap");
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
 
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #161920;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.cardGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+  height: 400px;
+  background-color: #1f232e;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.cardGameImageContainer {
+  width: 100%;
+  height: 60%;
+  overflow: hidden;
+}
+
+.cardGameDataContainer {
+  display: flex;
+  flex-direction: column;
+  height: 40%;
+  justify-content: space-between;
+}
+
+.cardGameImageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardGameTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.cardGameCritic {
+  display: flex;
+  align-items: center;
+}
+
+.cardGameCritic p {
+  font-size: 1.25rem;
+  padding-right: 0.5rem;
+}
+
+.cardGameCritic img {
+  height: 2rem;
+}
+
+.detailsPriceContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0.5rem;
+  padding-top: 0;
+}
+
+.cardGameDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.cardGamePrice {
+  display: flex;
+  align-items: end;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.cardGame:hover {
+  background-color: #3d4450;
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.8);
+}
+
+.cardGame:active {
+  transform: scale(0.95);
+}
+
+.pagesButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: 90vw;
+}
+
+.pagesButtons li {
+  list-style: none;
+}
+
+.pagesButtons li button {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #1f232e;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.pagesButtons li button:hover {
+  background-color: #3d4450;
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+
+.pagesButtons li button:active {
+  transform: scale(0.9);
+}
