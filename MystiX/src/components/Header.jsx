@@ -5,8 +5,8 @@ function Header() {
   return (
     <>
       <header>
-        <nav>
-          <ul><li><span className='LogoM'>Mysti</span><span className='LogoX'>X</span></li></ul>
+        <nav className='Hnav'>
+          <ul className='Hul'><li><span className='LogoM'>Mysti</span><span className='LogoX'>X</span></li></ul>
         </nav>
 
         <h2>
