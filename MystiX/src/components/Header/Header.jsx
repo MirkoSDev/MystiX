@@ -1,4 +1,3 @@
-import search from "../assets/search.svg";
 import "./header.css";
 
 function Header() {
