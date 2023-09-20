@@ -1,6 +1,7 @@
 
 const SearchBar = ({setSearchText}) => {
     
+      
   const handleSearch = (e) => {
   setSearchText(e.target.value.toLocaleLowerCase());
   };

@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+footer {
+  font-family: "Roboto", sans-serif;
+  background-color: #1f232e;
+  color: white;
+  font-size: x-small;
+  font-weight: 300;
+}
+
+.footerContainer {
+  display: flex;
+  background-color: #1f232e;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footericon {
+  display: flex;
+  list-style: none;
+  column-gap: 5px;
+}
+
+.footerimg {
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+}
+
+#footerTw {
+  background-color: black;
+}
+
+#footerIg {
+  background-color: rgba(223, 0, 120, 0.9);
+}
+
+#footerFb {
+  background-color: rgba(18, 120, 243, 0.9);
+}
+
+.copyright {
+  padding: 10px 10px;
+  margin: 0px 10px;
+  border-top: 1px solid white;
+  text-align: center;
+  font-size: 7px;
+}
+
+.footerTxt {
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  list-style: none;
+  text-align: justify;
+}
+
+.footerTxt a {
+  text-decoration: none;
+  color: white;
+}
+
+.LogoM {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.LogoX {
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  color: #423fd1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

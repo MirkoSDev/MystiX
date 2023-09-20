@@ -1,7 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import SearchBar from "./components/SearchBar";
 import Home from "./pages/Home";
 import "./App.css";
 import { ProductsContextProvider } from "./context/ProductsContext";
