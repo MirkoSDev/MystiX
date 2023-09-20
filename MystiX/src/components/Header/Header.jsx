@@ -1,6 +1,8 @@
 import "./header.css";
 
+
 function Header() {
+
   return (
     <>
       <header>
@@ -14,10 +16,9 @@ function Header() {
         </nav>
 
         <h2>
-          <div className="Hcontainer">
-            <input type="text" className="Hsearch" placeholder="Buscar..." />
-          </div>
+        
         </h2>
+       
       </header>
     </>
   );
